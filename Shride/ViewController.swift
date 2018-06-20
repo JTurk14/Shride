@@ -31,6 +31,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.listTableView.reloadData()
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
+        
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return carListItems.count
     }

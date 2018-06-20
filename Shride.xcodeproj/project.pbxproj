@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DB66E2820D9E8F500AAE2AC /* AddCarFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB66E2720D9E8F500AAE2AC /* AddCarFormViewController.swift */; };
 		5DC94FAD20D889FB00C1FA91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC94FAC20D889FB00C1FA91 /* AppDelegate.swift */; };
 		5DC94FAF20D889FB00C1FA91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC94FAE20D889FB00C1FA91 /* ViewController.swift */; };
 		5DC94FB220D889FB00C1FA91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC94FB020D889FB00C1FA91 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DB66E2720D9E8F500AAE2AC /* AddCarFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCarFormViewController.swift; sourceTree = "<group>"; };
 		5DC94FA920D889FB00C1FA91 /* Shride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shride.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC94FAC20D889FB00C1FA91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DC94FAE20D889FB00C1FA91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				5DC94FB820D889FB00C1FA91 /* Info.plist */,
 				5DC94FBE20D88E1800C1FA91 /* CarDBModel.swift */,
 				5DC94FC020D88E3600C1FA91 /* HomeModel.swift */,
+				5DB66E2720D9E8F500AAE2AC /* AddCarFormViewController.swift */,
 			);
 			path = Shride;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DB66E2820D9E8F500AAE2AC /* AddCarFormViewController.swift in Sources */,
 				5DC94FC120D88E3600C1FA91 /* HomeModel.swift in Sources */,
 				5DC94FBF20D88E1800C1FA91 /* CarDBModel.swift in Sources */,
 				5DC94FAF20D889FB00C1FA91 /* ViewController.swift in Sources */,
@@ -310,6 +314,7 @@
 				5DC94FBD20D889FB00C1FA91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
